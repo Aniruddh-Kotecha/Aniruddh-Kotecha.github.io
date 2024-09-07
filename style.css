@@ -48,7 +48,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: purple; /* folly red */
+    background: #B7410E;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -70,15 +70,15 @@ nav ul li a:hover:after{
 }
 
 .links {
-    margin-top: 20px; /* Adds space between header text and links */
-    text-align: center; /* Centers the icons under the text */
+    margin-top: 20px;
+    text-align: center; 
 }
 
 .links ul {
     list-style: none;
     padding: 0;
-    display: inline-flex; /* Ensures the icons are inline and centered */
-    gap: 15px; /* Adjusts space between icons */
+    display: inline-flex; 
+    gap: 15px; 
 }
 
 .links ul li {
@@ -86,17 +86,17 @@ nav ul li a:hover:after{
 }
 
 .links ul li img {
-    width: 32px; /* Adjusted icon size */
+    width: 32px; 
     height: 32px;
 }
 
 .resume-button {
     text-align: center;
-    margin-top: 30px; /* Space between icons and button */
+    margin-top: 30px; 
 }
 
 .resume-button a {
-    background-color: #9f54d1; /* Button color */
+    background-color: #e60023; 
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -106,7 +106,7 @@ nav ul li a:hover:after{
 }
 
 .resume-button a:hover {
-    background-color: #500880; /* Button hover effect */
+    background-color: #B7410E; 
 }
 
 /*-------------------about---------*/
@@ -150,7 +150,7 @@ nav ul li a:hover:after{
     content: '';
     width: 0;
     height: 3px;
-    background-color: purple;
+    background-color: #B7410E;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -165,6 +165,13 @@ nav ul li a:hover:after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: purple;
+    color: #B7410E;
     font-size: 24px;
+}
+
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
 }
